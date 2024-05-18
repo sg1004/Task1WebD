@@ -1,0 +1,142 @@
+@font-face {
+    src: url(BarlowCondensed-Light.ttf);
+    font-family: ABC;
+}
+@font-face {
+    src: url(SairaExtraCondensed-Medium.ttf);
+    font-family: Condensed;
+}
+#he{
+font-family: Condensed;
+font-size: 100px;
+}
+header{
+    background-image: url(background-textures.png) ;
+    margin: 0 -10px 0 -8px;
+    color: white;
+}
+#loc:hover{
+    margin: -10px 0px 0 0px;
+    font-size: 30px;
+    font-family: ABC;
+    color: white ;
+    border:0cap ;
+    border-top-width:0ic ;
+    background-color: #D81F4E ;
+    height:75px
+}
+#loc {
+    margin: -10px 0px 0 0px;
+    font-size: 30px;
+    font-family: ABC;
+    border:0cap ;
+    background-color:white;
+    border-top-width:0ic ;
+    height:10px;
+    transition:.5s;
+}
+#News{
+    color:black;
+    background-color: lightgray;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.container {
+    display: inline-block;
+    position: relative;
+    color: rgb(0, 0, 0);
+    background-color: lightgray;
+    font-size: 25px;
+}
+ 
+.word {
+    position: absolute;
+    top: 50%;
+    left: 600%;
+    transform: translate(0,-50%);
+    animation: switch 6s infinite ease-in-out;
+    min-width: 100%;
+    margin: auto;
+}
+ 
+.word:nth-child(1) {
+    animation-delay: -6s;
+}
+ 
+.word:nth-child(2) {
+    animation-delay: -4s;
+}
+ 
+.word:nth-child(3) {
+    animation-delay: -2s;
+}
+ 
+@keyframes switch {
+ 
+    0%,
+    5%,
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+ 
+    50%,
+    80% {
+        filter: blur(15px);
+        opacity: 0;
+    }
+}
+#date{
+    font-size: 20px;
+    text-align: right;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#D81F4E
+}
+.container1 {
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .text1 {
+    position: absolute;
+    bottom: 8px;
+    left: 5px;
+    display: inline-block;
+    width: 290px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+  .text2 {
+    position: absolute;
+    bottom: 8px;
+    left: 320px;
+    display: inline-block;
+    width: 290px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }  
+  .text3 {
+    position: absolute;
+    bottom: 8px;
+    left: 620px;
+    display: inline-block;
+    width: 290px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+  .text4 {
+    position: absolute;
+    bottom: 8px;
+    left: 930px;
+    display: inline-block;
+    width: 290px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }  
